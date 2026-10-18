@@ -1,0 +1,2540 @@
+{
+ "format": {
+  "audio": "mp3 mono 24 kHz 64 kbps",
+  "cues": "[{s,e,v}] seconds, Rhubarb GHX shapes",
+  "id": "<persona>_<sha1(persona|text)[:10]>, text = spoken words, surrounding quotes removed, whitespace collapsed"
+ },
+ "voices": {
+  "task": {
+   "name": "Riley",
+   "kokoro": "am_michael"
+  },
+  "warm": {
+   "name": "Morgan",
+   "kokoro": "af_nicole"
+  }
+ },
+ "files": [
+  {
+   "id": "task_da90078782",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Hey. Dinner was good. What's up?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b1_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "task_da90078782.mp3",
+   "cues": "task_da90078782.cues.json",
+   "duration": 1.74,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_752c8e15ef",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Hi you. You look like something is on your mind.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b1_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "warm_752c8e15ef.mp3",
+   "cues": "warm_752c8e15ef.cues.json",
+   "duration": 3.76,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_e9dda65ebf",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Sure, I'm listening.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b1_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "task_e9dda65ebf.mp3",
+   "cues": "task_e9dda65ebf.cues.json",
+   "duration": 1.16,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_0a6534d410",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Sure, I'm listening.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b1_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_0a6534d410.mp3",
+   "cues": "warm_0a6534d410.cues.json",
+   "duration": 1.33,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_a50fea43fb",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Wow. Okay. Where did that come from?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b1_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "task_a50fea43fb.mp3",
+   "cues": "task_a50fea43fb.cues.json",
+   "duration": 2.24,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_c592242cf7",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Wow. Okay. Where did that come from?",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b1_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_c592242cf7.mp3",
+   "cues": "warm_c592242cf7.cues.json",
+   "duration": 2.93,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_e1f8b77562",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Oh. Okay... I didn't know we were doing that.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b1_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "task_e1f8b77562.mp3",
+   "cues": "task_e1f8b77562.cues.json",
+   "duration": 2.64,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_b1faba2b27",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Oh. Okay... I didn't know we were doing that.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b1_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_b1faba2b27.mp3",
+   "cues": "warm_b1faba2b27.cues.json",
+   "duration": 3.52,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_881a6a1351",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay... you sure?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b1_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "task_881a6a1351.mp3",
+   "cues": "task_881a6a1351.cues.json",
+   "duration": 1.14,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_3d1b57713d",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Okay... you sure?",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b1_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_3d1b57713d.mp3",
+   "cues": "warm_3d1b57713d.cues.json",
+   "duration": 1.25,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_d781401b37",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Sure. Go ahead.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b2_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "task_d781401b37.mp3",
+   "cues": "task_d781401b37.cues.json",
+   "duration": 1.01,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_b8052527c1",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Sure, I'm here. Tell me.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b2_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "warm_b8052527c1.mp3",
+   "cues": "warm_b8052527c1.cues.json",
+   "duration": 1.75,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_b73f46fc17",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I didn't realise it felt like that. Okay.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b2_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "task_b73f46fc17.mp3",
+   "cues": "task_b73f46fc17.cues.json",
+   "duration": 2.56,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_d242694c79",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I didn't realise it felt like that. Okay.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b2_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_d242694c79.mp3",
+   "cues": "warm_d242694c79.cues.json",
+   "duration": 3.66,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_3316f09053",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Selfish? That's not fair.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b2_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "task_3316f09053.mp3",
+   "cues": "task_3316f09053.cues.json",
+   "duration": 1.59,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_4b44524254",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Selfish? That's not fair.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b2_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_4b44524254.mp3",
+   "cues": "warm_4b44524254.cues.json",
+   "duration": 1.99,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_65e58b76f0",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Seriously? Don't talk to me like that.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b2_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "task_65e58b76f0.mp3",
+   "cues": "task_65e58b76f0.cues.json",
+   "duration": 2.11,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_bee069da23",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Seriously? Don't talk to me like that.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b2_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_bee069da23.mp3",
+   "cues": "warm_bee069da23.cues.json",
+   "duration": 3.11,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_432bd233cc",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Fair how? I'm not sure what you mean.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L1_b2_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "task_432bd233cc.mp3",
+   "cues": "task_432bd233cc.cues.json",
+   "duration": 2.1,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_aa9b3c0265",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Fair how? I'm not sure what you mean.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L1_b2_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 1,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_aa9b3c0265.mp3",
+   "cues": "warm_aa9b3c0265.cues.json",
+   "duration": 3.15,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_6effbd5964",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I'm wiped. Can this wait?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b1_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "task_6effbd5964.mp3",
+   "cues": "task_6effbd5964.cues.json",
+   "duration": 1.38,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_85b70de89e",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I'm so tired tonight. Is this a big thing?",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b1_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "warm_85b70de89e.mp3",
+   "cues": "warm_85b70de89e.cues.json",
+   "duration": 3.72,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_de00841813",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Thanks for asking. Tomorrow evening, okay?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b1_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "task_de00841813.mp3",
+   "cues": "task_de00841813.cues.json",
+   "duration": 2.75,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_3647b48d94",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Thanks for asking. Tomorrow evening, okay?",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b1_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_3647b48d94.mp3",
+   "cues": "warm_3647b48d94.cues.json",
+   "duration": 3.72,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_70212554c3",
+   "persona": "task",
+   "name": "Riley",
+   "text": "That's not fair. I'm just exhausted.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b1_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "task_70212554c3.mp3",
+   "cues": "task_70212554c3.cues.json",
+   "duration": 2.26,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_4e3e60b9ca",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "That's not fair. I'm just exhausted.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b1_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_4e3e60b9ca.mp3",
+   "cues": "warm_4e3e60b9ca.cues.json",
+   "duration": 3.28,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_3979c3a1a0",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Wow. Fine. But I can't promise I'll be great at this.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b1_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "task_3979c3a1a0.mp3",
+   "cues": "task_3979c3a1a0.cues.json",
+   "duration": 3.43,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_38cc26d837",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Wow. Fine. But I can't promise I'll be great at this.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b1_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_38cc26d837.mp3",
+   "cues": "warm_38cc26d837.cues.json",
+   "duration": 4.62,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_2d0ef74661",
+   "persona": "task",
+   "name": "Riley",
+   "text": "...Okay then.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b1_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "task_2d0ef74661.mp3",
+   "cues": "task_2d0ef74661.cues.json",
+   "duration": 0.87,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_7dbc553b81",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "...Okay then.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b1_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_7dbc553b81.mp3",
+   "cues": "warm_7dbc553b81.cues.json",
+   "duration": 0.97,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_13f08f2573",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay. Is this going to be a list of my mistakes?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b2_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "task_13f08f2573.mp3",
+   "cues": "task_13f08f2573.cues.json",
+   "duration": 2.94,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_03d84295bd",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I'm here. Please don't make me feel like a terrible partner.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b2_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "warm_03d84295bd.mp3",
+   "cues": "warm_03d84295bd.cues.json",
+   "duration": 4.74,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_8a64452146",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay. That I can hear.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b2_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "task_8a64452146.mp3",
+   "cues": "task_8a64452146.cues.json",
+   "duration": 1.41,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_9bf3107e72",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Okay. That I can hear.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b2_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_9bf3107e72.mp3",
+   "cues": "warm_9bf3107e72.cues.json",
+   "duration": 1.6,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_9faa71db9d",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Great. So it IS a list.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b2_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "task_9faa71db9d.mp3",
+   "cues": "task_9faa71db9d.cues.json",
+   "duration": 1.41,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_b4580a0c30",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Great. So it IS a list.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b2_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_b4580a0c30.mp3",
+   "cues": "warm_b4580a0c30.cues.json",
+   "duration": 1.73,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_42d835a9bc",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I'm not too sensitive. Don't say that.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b2_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "task_42d835a9bc.mp3",
+   "cues": "task_42d835a9bc.cues.json",
+   "duration": 2.19,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_e34920e15d",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I'm not too sensitive. Don't say that.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b2_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_e34920e15d.mp3",
+   "cues": "warm_e34920e15d.cues.json",
+   "duration": 3.38,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_5214b2827c",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Thank you. I do feel a bit better.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L2_b2_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "task_5214b2827c.mp3",
+   "cues": "task_5214b2827c.cues.json",
+   "duration": 2.0,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_113c44a2b2",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Thank you. I do feel a bit better.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L2_b2_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 2,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_113c44a2b2.mp3",
+   "cues": "warm_113c44a2b2.cues.json",
+   "duration": 2.6,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_b9f7acc53f",
+   "persona": "task",
+   "name": "Riley",
+   "text": "If this is about the dishes again, I already know. I do things too.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b1_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "task_b9f7acc53f.mp3",
+   "cues": "task_b9f7acc53f.cues.json",
+   "duration": 4.02,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_04ef979d85",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Here we go. You always make me feel like I'm failing.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b1_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "warm_04ef979d85.mp3",
+   "cues": "warm_04ef979d85.cues.json",
+   "duration": 4.37,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_cacdcc5d92",
+   "persona": "task",
+   "name": "Riley",
+   "text": "...Okay. I'd like that.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b1_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "task_cacdcc5d92.mp3",
+   "cues": "task_cacdcc5d92.cues.json",
+   "duration": 1.28,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_bd7b8dbe64",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "...Okay. I'd like that.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b1_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_bd7b8dbe64.mp3",
+   "cues": "warm_bd7b8dbe64.cues.json",
+   "duration": 1.65,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_18edef26b3",
+   "persona": "task",
+   "name": "Riley",
+   "text": "See? You can't even hear me.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b1_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "task_18edef26b3.mp3",
+   "cues": "task_18edef26b3.cues.json",
+   "duration": 1.52,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_9107dc8daa",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "See? You can't even hear me.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b1_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_9107dc8daa.mp3",
+   "cues": "warm_9107dc8daa.cues.json",
+   "duration": 1.89,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_baa7f0b224",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Wow. Okay. That's what you really think.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b1_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "task_baa7f0b224.mp3",
+   "cues": "task_baa7f0b224.cues.json",
+   "duration": 2.39,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_6de6634260",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Wow. Okay. That's what you really think.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b1_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_6de6634260.mp3",
+   "cues": "warm_6de6634260.cues.json",
+   "duration": 3.3,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_db8adf3800",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Yeah. Okay. Five minutes.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b1_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "task_db8adf3800.mp3",
+   "cues": "task_db8adf3800.cues.json",
+   "duration": 1.68,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_60dec2bedf",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Yeah. Okay. Five minutes.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b1_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_60dec2bedf.mp3",
+   "cues": "warm_60dec2bedf.cues.json",
+   "duration": 1.96,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_defd8f6e8b",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay. What exactly do you want me to do?",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b2_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "task_defd8f6e8b.mp3",
+   "cues": "task_defd8f6e8b.cues.json",
+   "duration": 2.33,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_5fd18af4cb",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I want to make this better. I just don't know what you need.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b2_say",
+     "kind": "say",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "warm_5fd18af4cb.mp3",
+   "cues": "warm_5fd18af4cb.cues.json",
+   "duration": 4.26,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_2dd48ab8ff",
+   "persona": "task",
+   "name": "Riley",
+   "text": "That's doable. Let's try.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b2_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "task_2dd48ab8ff.mp3",
+   "cues": "task_2dd48ab8ff.cues.json",
+   "duration": 1.53,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_1f708a1da7",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "That's doable. Let's try.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b2_o1_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_1f708a1da7.mp3",
+   "cues": "warm_1f708a1da7.cues.json",
+   "duration": 1.97,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_7acac61825",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I'm not a mind reader.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b2_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "task_7acac61825.mp3",
+   "cues": "task_7acac61825.cues.json",
+   "duration": 1.42,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_de57c5d031",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I'm not a mind reader.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b2_o2_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_de57c5d031.mp3",
+   "cues": "warm_de57c5d031.cues.json",
+   "duration": 1.73,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_2e9dc60e72",
+   "persona": "task",
+   "name": "Riley",
+   "text": "That's not what I'm asking for...",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b2_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "task_2e9dc60e72.mp3",
+   "cues": "task_2e9dc60e72.cues.json",
+   "duration": 1.71,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_3c57d00bec",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "That's not what I'm asking for...",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b2_o3_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_3c57d00bec.mp3",
+   "cues": "warm_3c57d00bec.cues.json",
+   "duration": 1.98,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_7d70c96c1c",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Yes. Sunday check-in works for me.",
+   "uses": [
+    {
+     "readable_id": "task_gentle_startup_L3_b2_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "task_7d70c96c1c.mp3",
+   "cues": "task_7d70c96c1c.cues.json",
+   "duration": 2.08,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_38cfba11fd",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Yes. Sunday check-in works for me.",
+   "uses": [
+    {
+     "readable_id": "warm_gentle_startup_L3_b2_o4_react",
+     "kind": "react",
+     "skill": "gentle_startup",
+     "level": 3,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_38cfba11fd.mp3",
+   "cues": "warm_38cfba11fd.cues.json",
+   "duration": 2.26,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_4c8d05a425",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Honestly, I feel judged about the house. I work late and I'm exhausted.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b1_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "task_4c8d05a425.mp3",
+   "cues": "task_4c8d05a425.cues.json",
+   "duration": 4.36,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_88c3030f74",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I've felt like nothing I do is enough lately, and I don't know why.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b1_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "warm_88c3030f74.mp3",
+   "cues": "warm_88c3030f74.cues.json",
+   "duration": 5.33,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_c9fee37942",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Yes. Exactly. Thank you.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b1_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "task_c9fee37942.mp3",
+   "cues": "task_c9fee37942.cues.json",
+   "duration": 1.63,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_08c6f5755a",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Yes. Exactly. Thank you.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b1_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_08c6f5755a.mp3",
+   "cues": "warm_08c6f5755a.cues.json",
+   "duration": 1.98,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_0e27a749c2",
+   "persona": "task",
+   "name": "Riley",
+   "text": "It's not that simple.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b1_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "task_0e27a749c2.mp3",
+   "cues": "task_0e27a749c2.cues.json",
+   "duration": 1.24,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_96a20bb327",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "It's not that simple.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b1_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_96a20bb327.mp3",
+   "cues": "warm_96a20bb327.cues.json",
+   "duration": 1.39,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_47a388911d",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I didn't say you were. Never mind.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b1_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "task_47a388911d.mp3",
+   "cues": "task_47a388911d.cues.json",
+   "duration": 2.17,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_8cd7618ac7",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I didn't say you were. Never mind.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b1_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_8cd7618ac7.mp3",
+   "cues": "warm_8cd7618ac7.cues.json",
+   "duration": 2.77,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_39fbec7015",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Right. So it doesn't matter.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b1_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "task_39fbec7015.mp3",
+   "cues": "task_39fbec7015.cues.json",
+   "duration": 1.42,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_19efc9fd5d",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Right. So it doesn't matter.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b1_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_19efc9fd5d.mp3",
+   "cues": "warm_19efc9fd5d.cues.json",
+   "duration": 1.53,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_2f8fafb093",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I want to do my part. I just don't always see what needs doing.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b2_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "task_2f8fafb093.mp3",
+   "cues": "task_2f8fafb093.cues.json",
+   "duration": 3.96,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_12f0367e76",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I do care about the house. I just get overwhelmed.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b2_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "warm_12f0367e76.mp3",
+   "cues": "warm_12f0367e76.cues.json",
+   "duration": 4.18,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_7f17ced229",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Yeah. That's it. Thank you for getting it.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b2_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "task_7f17ced229.mp3",
+   "cues": "task_7f17ced229.cues.json",
+   "duration": 2.26,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_d090e17a16",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Yeah. That's it. Thank you for getting it.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b2_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_d090e17a16.mp3",
+   "cues": "warm_d090e17a16.cues.json",
+   "duration": 3.05,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_2a1c0348d4",
+   "persona": "task",
+   "name": "Riley",
+   "text": "There it is. I can't talk to you.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b2_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "task_2a1c0348d4.mp3",
+   "cues": "task_2a1c0348d4.cues.json",
+   "duration": 1.83,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_ff5ce2f6bc",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "There it is. I can't talk to you.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b2_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_ff5ce2f6bc.mp3",
+   "cues": "warm_ff5ce2f6bc.cues.json",
+   "duration": 2.83,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_886f0f4c3a",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay... sure.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b2_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "task_886f0f4c3a.mp3",
+   "cues": "task_886f0f4c3a.cues.json",
+   "duration": 1.03,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_7f8d5858bb",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Okay... sure.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b2_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_7f8d5858bb.mp3",
+   "cues": "warm_7f8d5858bb.cues.json",
+   "duration": 1.04,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_527e2ce617",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Thank you. That helps.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L1_b2_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "task_527e2ce617.mp3",
+   "cues": "task_527e2ce617.cues.json",
+   "duration": 1.21,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_86ff58bbb4",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Thank you. That helps.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L1_b2_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 1,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_86ff58bbb4.mp3",
+   "cues": "warm_86ff58bbb4.cues.json",
+   "duration": 1.35,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_51c4088332",
+   "persona": "task",
+   "name": "Riley",
+   "text": "You act like you're the only one who does anything. It's not fair.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b1_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "task_51c4088332.mp3",
+   "cues": "task_51c4088332.cues.json",
+   "duration": 3.75,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_aa921d71fb",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "It hurts when you talk like I do nothing. I do a lot you don't see.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b1_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "warm_aa921d71fb.mp3",
+   "cues": "warm_aa921d71fb.cues.json",
+   "duration": 5.19,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_60dd700b79",
+   "persona": "task",
+   "name": "Riley",
+   "text": "...Yeah. It is. Thank you.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b1_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "task_60dd700b79.mp3",
+   "cues": "task_60dd700b79.cues.json",
+   "duration": 1.38,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_3d8802913d",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "...Yeah. It is. Thank you.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b1_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_3d8802913d.mp3",
+   "cues": "warm_3d8802913d.cues.json",
+   "duration": 1.67,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_d4104dbd86",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Of course. It's always my fault.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b1_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "task_d4104dbd86.mp3",
+   "cues": "task_d4104dbd86.cues.json",
+   "duration": 1.88,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_6adbf78574",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Of course. It's always my fault.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b1_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_6adbf78574.mp3",
+   "cues": "warm_6adbf78574.cues.json",
+   "duration": 2.74,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_b30b6fa874",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Wow. So we're keeping score now.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b1_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "task_b30b6fa874.mp3",
+   "cues": "task_b30b6fa874.cues.json",
+   "duration": 1.82,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_9f9062495f",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Wow. So we're keeping score now.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b1_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_9f9062495f.mp3",
+   "cues": "warm_9f9062495f.cues.json",
+   "duration": 1.99,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_2fe8a0ddb6",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay. Thank you.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b1_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "task_2fe8a0ddb6.mp3",
+   "cues": "task_2fe8a0ddb6.cues.json",
+   "duration": 1.16,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_58bdfc8a3b",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Okay. Thank you.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b1_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_58bdfc8a3b.mp3",
+   "cues": "warm_58bdfc8a3b.cues.json",
+   "duration": 1.27,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_b399939f11",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Fine. But you don't get how much I carry.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b2_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "task_b399939f11.mp3",
+   "cues": "task_b399939f11.cues.json",
+   "duration": 2.2,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_24edf9e083",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "You really don't get how much I carry, do you?",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b2_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "warm_24edf9e083.mp3",
+   "cues": "warm_24edf9e083.cues.json",
+   "duration": 2.99,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_07390fb149",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay. Well... it's a lot more than just the dishes.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b2_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "task_07390fb149.mp3",
+   "cues": "task_07390fb149.cues.json",
+   "duration": 3.23,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_334eb91099",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Okay. Well... it's a lot more than just the dishes.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b2_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_334eb91099.mp3",
+   "cues": "warm_334eb91099.cues.json",
+   "duration": 4.17,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_07caa3a470",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Of course you do. Never mind.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b2_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "task_07caa3a470.mp3",
+   "cues": "task_07caa3a470.cues.json",
+   "duration": 2.0,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_5212afbeba",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Of course you do. Never mind.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b2_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_5212afbeba.mp3",
+   "cues": "warm_5212afbeba.cues.json",
+   "duration": 2.5,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_3746a9a7c3",
+   "persona": "task",
+   "name": "Riley",
+   "text": "That's cruel. I'm done.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b2_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "task_3746a9a7c3.mp3",
+   "cues": "task_3746a9a7c3.cues.json",
+   "duration": 1.27,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_7feeec1046",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "That's cruel. I'm done.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b2_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_7feeec1046.mp3",
+   "cues": "warm_7feeec1046.cues.json",
+   "duration": 1.52,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_458834d9d6",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Thank you. I'd like that too.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L2_b2_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "task_458834d9d6.mp3",
+   "cues": "task_458834d9d6.cues.json",
+   "duration": 1.57,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_e6e36d8675",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Thank you. I'd like that too.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L2_b2_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 2,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_e6e36d8675.mp3",
+   "cues": "warm_e6e36d8675.cues.json",
+   "duration": 1.96,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_72397b51fb",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Forget it. Nothing I do is good enough, so why bother.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b1_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "task_72397b51fb.mp3",
+   "cues": "task_72397b51fb.cues.json",
+   "duration": 3.16,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_0682219d7f",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I can't do this. Every time we talk, I'm the bad guy.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b1_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": null
+    }
+   ],
+   "mp3": "warm_0682219d7f.mp3",
+   "cues": "warm_0682219d7f.cues.json",
+   "duration": 4.88,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_228558aaa0",
+   "persona": "task",
+   "name": "Riley",
+   "text": "...I didn't expect you to say that.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b1_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "task_228558aaa0.mp3",
+   "cues": "task_228558aaa0.cues.json",
+   "duration": 1.56,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_c745b77551",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "...I didn't expect you to say that.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b1_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_c745b77551.mp3",
+   "cues": "warm_c745b77551.cues.json",
+   "duration": 1.9,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_9ac67bf43b",
+   "persona": "task",
+   "name": "Riley",
+   "text": "There. I knew it.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b1_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "task_9ac67bf43b.mp3",
+   "cues": "task_9ac67bf43b.cues.json",
+   "duration": 0.98,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_5823a2c6da",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "There. I knew it.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b1_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_5823a2c6da.mp3",
+   "cues": "warm_5823a2c6da.cues.json",
+   "duration": 1.07,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_0f2405d550",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Stop pushing me!",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b1_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "task_0f2405d550.mp3",
+   "cues": "task_0f2405d550.cues.json",
+   "duration": 1.1,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_7a4ec0a5ba",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Stop pushing me!",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b1_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_7a4ec0a5ba.mp3",
+   "cues": "warm_7a4ec0a5ba.cues.json",
+   "duration": 1.15,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_403b109e75",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Okay. Thank you. I need a few minutes.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b1_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "task_403b109e75.mp3",
+   "cues": "task_403b109e75.cues.json",
+   "duration": 2.45,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_0535e78fac",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Okay. Thank you. I need a few minutes.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b1_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 1,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_0535e78fac.mp3",
+   "cues": "warm_0535e78fac.cues.json",
+   "duration": 3.17,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_caab7fa28c",
+   "persona": "task",
+   "name": "Riley",
+   "text": "I'm sorry I snapped. I'm just stressed.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b2_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "task_caab7fa28c.mp3",
+   "cues": "task_caab7fa28c.cues.json",
+   "duration": 2.2,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_5163e61695",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "I'm sorry I got short. Can we try again?",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b2_say",
+     "kind": "say",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": null
+    }
+   ],
+   "mp3": "warm_5163e61695.mp3",
+   "cues": "warm_5163e61695.cues.json",
+   "duration": 3.55,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_c6969db5e3",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Thank you. I feel better already.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b2_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "task_c6969db5e3.mp3",
+   "cues": "task_c6969db5e3.cues.json",
+   "duration": 2.0,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_d4a0c8cc1b",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Thank you. I feel better already.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b2_o1_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 1
+    }
+   ],
+   "mp3": "warm_d4a0c8cc1b.mp3",
+   "cues": "warm_d4a0c8cc1b.cues.json",
+   "duration": 2.49,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_a109883316",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Wow. I try to apologise and this is what I get.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b2_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "task_a109883316.mp3",
+   "cues": "task_a109883316.cues.json",
+   "duration": 3.14,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_7635af5b7f",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Wow. I try to apologise and this is what I get.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b2_o2_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 2
+    }
+   ],
+   "mp3": "warm_7635af5b7f.mp3",
+   "cues": "warm_7635af5b7f.cues.json",
+   "duration": 4.87,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_440981ff6c",
+   "persona": "task",
+   "name": "Riley",
+   "text": "Yeah. Thanks for not holding it against me.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b2_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "task_440981ff6c.mp3",
+   "cues": "task_440981ff6c.cues.json",
+   "duration": 2.38,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_5809361b94",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "Yeah. Thanks for not holding it against me.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b2_o3_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 3
+    }
+   ],
+   "mp3": "warm_5809361b94.mp3",
+   "cues": "warm_5809361b94.cues.json",
+   "duration": 2.95,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "task_42d69eb087",
+   "persona": "task",
+   "name": "Riley",
+   "text": "...Oh. Okay.",
+   "uses": [
+    {
+     "readable_id": "task_validation_L3_b2_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "task_42d69eb087.mp3",
+   "cues": "task_42d69eb087.cues.json",
+   "duration": 0.95,
+   "voice": "am_michael",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  },
+  {
+   "id": "warm_853d185f03",
+   "persona": "warm",
+   "name": "Morgan",
+   "text": "...Oh. Okay.",
+   "uses": [
+    {
+     "readable_id": "warm_validation_L3_b2_o4_react",
+     "kind": "react",
+     "skill": "validation",
+     "level": 3,
+     "beat": 2,
+     "option": 4
+    }
+   ],
+   "mp3": "warm_853d185f03.mp3",
+   "cues": "warm_853d185f03.cues.json",
+   "duration": 1.0,
+   "voice": "af_nicole",
+   "recipe": "couples-v1: kokoro speed1.0, trim -45dB, rhubarb pocketSphinx GHX, mp3 mono 24k 64k"
+  }
+ ],
+ "orphans": []
+}
